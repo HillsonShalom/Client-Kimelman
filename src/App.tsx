@@ -5,6 +5,7 @@ import Map from "./components/Map";
 import Register from "./components/Register";
 import Login from "./components/Login";
 import { fetchUser } from "./store/slices/userSlice";
+import Vote from "./components/Vote";
 
 
 
@@ -19,6 +20,7 @@ function App() {
   return (
     <>
       <div>
+        <Vote/>
         <Register/>
         <Login/>
         <Map/>
